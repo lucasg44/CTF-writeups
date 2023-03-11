@@ -1,4 +1,4 @@
-# Hackthebox CTF's
+# Hackthebox CTFs
 
 [CyberHack 2023](CyberHack 2023/)
 
