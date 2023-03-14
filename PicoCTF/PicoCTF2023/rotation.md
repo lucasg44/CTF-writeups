@@ -7,7 +7,7 @@ This challenge is a cryptography challenge from PicoCTF 2023, I completed this c
 This will be updated at the end of PicoCTF 2023
 
 ### The problem
-You will find the flag after decrypting this file Download the encrypted flag.
+You will find the flag after decrypting this file Download the [encrypted flag](https://artifacts.picoctf.net/c/447/encrypted.txt).
 
 (Hint) Sometimes rotation is right
 
