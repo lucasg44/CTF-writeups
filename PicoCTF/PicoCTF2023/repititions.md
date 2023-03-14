@@ -7,7 +7,7 @@ This challenge is a cryptography challenge from PicoCTF 2023, I completed this c
 This will be updated at the end of PicoCTF 2023
 
 ### The problem
-Can you make sense of this file? Download the file.
+Can you make sense of this file? Download the [file](https://artifacts.picoctf.net/c/293/enc_flag).
 
 (Hint) Multiple decoding is always good.
 
