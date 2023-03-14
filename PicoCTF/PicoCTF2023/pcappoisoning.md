@@ -7,7 +7,7 @@ This challenge is a forensics challenge from PicoCTF 2023, I completed this chal
 This will be updated at the end of PicoCTF 2023
 
 ### The problem
-How about some hide and seek heh? Download this file and find the flag.
+How about some hide and seek heh? Download [this file](https://artifacts.picoctf.net/c/400/trace.pcap) and find the flag.
 (No hints)
 
 ### The solution
