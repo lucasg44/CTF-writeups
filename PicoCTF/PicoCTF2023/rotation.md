@@ -4,9 +4,7 @@
 This challenge is a cryptography challenge from PicoCTF 2023, I completed this challenge on my own.
 
 ### Resources
-https://www.dcode.fr/rot-cipher
-
-I used this for the decoding process
+This will be updated at the end of PicoCTF 2023
 
 ### The problem
 You will find the flag after decrypting this file Download the encrypted flag.
