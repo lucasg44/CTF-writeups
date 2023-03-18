@@ -105,7 +105,7 @@ if __name__ == "__main__":
     pwn()
 ``````
 
-When completing this challenge, I used a netcat opener to request a response from the IP:
+When completing this challenge, I used the python3 command to request a response from the IP:
 ``````bash
 python3 solver.py REMOTE HOST=139.59.178.162:32765
 ``````
