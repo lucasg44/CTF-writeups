@@ -1,10 +1,10 @@
 # Ancient encodings
 
 ### Overivew
-This challenge was rated very easy for HTB cyber apocolypse. This challenge was a cryptography challenge. I completed this on my own
+This challenge was rated very easy for HTB cyber Apocalypse. This challenge was a cryptography challenge. I completed this on my own
 
 ### Resources
-This will be revealed at the end of Cyber-apocolypse
+This will be revealed at the end of Cyber-Apocalypse
 
 ### The problem
 Your initialization sequence requires loading various programs to gain the necessary knowledge and skills for your journey. Your first task is to learn the ancient encodings used by the aliens in their communication. 
@@ -38,4 +38,4 @@ if __name__ == "__main__":
     main()
 ``````
 
-The rest will be revealed at the end of Cyber-apocolypse 2023
+The rest will be revealed at the end of Cyber-Apocalypse 2023
