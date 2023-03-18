@@ -9,4 +9,4 @@
 
 [TimeTok](CyberHack2023/TimeTok.md)
 
-### Cyber-apocolypse 2023
+### Cyber-Apocalypse 2023
