@@ -5,8 +5,8 @@ Eavesdropping was an 100 point forensics challenge at Hack-a-bull 2023. This cha
 
 ### Resources
 https://www.dcode.fr/caesar-cipher
-This website provided my team with a way to get the brute force aspect down for cesar cypher
 
+This website provided my team with a way to get the brute force aspect down for cesar cypher
 
 ### The problem
 Our IDS picked up some uncategorized traffic, can you figure out what happened?
