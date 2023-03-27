@@ -4,7 +4,9 @@
 This challenge was rated very easy for HTB cyber Apocalypse. This challenge was a cryptography challenge.
 
 ### Resources
-This will be revealed at the end of Cyber-Apocalypse 2023
+https://github.com/RsaCtfTool/RsaCtfTool
+
+This tool is a brute forcing RSA decrypting tool that took in the values and gave me the flag
 
 ### The Problem
 As you continue your journey, you must learn about the encryption method the aliens used to secure their communication from eavesdroppers. The engineering team has designed a challenge that emulates the exact parameters of the aliens' encryption system, complete with instructions and a code snippet to connect to a mock alien server. Your task is to break it.
@@ -110,4 +112,20 @@ When completing this challenge, I used the python3 command to request a response
 python3 solver.py REMOTE HOST=139.59.178.162:32765
 ``````
 
-The rest of the challenge will be revealed at the end of Cyber-apocalypse 2023
+Using the python3 code gave me values for N,E, and the encrypted text
+
+- N = 11025402345224991321735865715277800393342588350521493814751530118552378356817150657169702902763910860823073431232385620436976602755030767806230924000127753
+- E = 3
+- Encrypted text = 70407336670535933819674104208890254240063781538460394662998902860952366439176467447947737680952277637330523818962104685553250402512989897886053
+
+After this I plugged in the numbers to the RsaCtfTool to get the flag using the following command
+``````bash
+python3 RsaCtfTool.py -n 11025402345224991321735865715277800393342588350521493814751530118552378356817150657169702902763910860823073431232385620436976602755030767806230924000127753 -e 3 --uncipher 70407336670535933819674104208890254240063781538460394662998902860952366439176467447947737680952277637330523818962104685553250402512989897886053
+``````
+
+### TL;DR
+I used RsaCtfTool to plug in the numbers for N,E, and encrypted text to brute force the flag
+
+### Flag
+HTB{5ma1l_E-xp0n3nt}
+
