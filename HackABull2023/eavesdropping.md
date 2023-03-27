@@ -26,7 +26,7 @@ JPFP_UnpxnOhyy23{s10j!at_j1gu_gu3_fge34zf00}
 Using this output, we plugged it into as many cyphers that my team could imaging until we stumbled onto a cesar cypher. After running the text through our resource, we stumbled upon the flag through a cesar cypher with a rotation of 13.
 
 ### TL;DR
-We found a string in the pcapng file that looked similar to a flag format, so we ran a cesar cypher to get the decoded flag
+We found a string in the pcapng file that looked similar to a flag format, so we ran a cesar cypher to get the decoded flag.
 
 ### Flag
 WCSC_HackaBull23{f10w!ng_w1th_th3_str34ms00}
