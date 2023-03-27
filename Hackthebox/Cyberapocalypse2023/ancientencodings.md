@@ -38,4 +38,10 @@ if __name__ == "__main__":
     main()
 ``````
 
-The rest will be revealed at the end of Cyber-Apocalypse 2023
+I realized the text was hexidecimal, so I decoded it to get a base64 code. After decoding the base64 code I got the flag
+
+### TL;DR
+I decoded a hex code to get base 64 and then decoded the base64 to get the flag
+
+### Flag
+HTB{1n_y0ur_j0urn3y_y0u_wi1l_se3_th15_enc0d1ngs_ev3rywher3}
