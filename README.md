@@ -4,4 +4,4 @@
 
 [Pico CTF](PicoCTF/)
 
-[Hack-a-bull2023](HackABull2023/)
+[Hack-a-bull 2023](HackABull2023/)
