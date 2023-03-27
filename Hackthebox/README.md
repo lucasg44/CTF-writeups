@@ -10,3 +10,6 @@
 [TimeTok](CyberHack2023/TimeTok.md)
 
 ### Cyber-Apocalypse 2023
+[Ancient Encodings](Cyberapocalypse2023/ancientencodings.md)
+
+[Small StEps](Cyberapocalypse2023/smallstEps.md)
