@@ -5,3 +5,8 @@ I would like to thank the Whitehatters Computer Security Club, who not only orga
 
 
 Out of all competitors and teams, my team, "flag. txt" was able to get first place. With 1240 points total, my team took home the gold trophy. My team was able to solve 10 out of the 15 challenges that were available to players.
+
+Teammates include:
+- [Jason Rodriguez](https://www.linkedin.com/in/jason-ryan-rodriguez/)
+- [Max Mulvihill](https://www.linkedin.com/in/max-mulvihill-0b374426b)
+- [Bilal Saeed](https://www.linkedin.com/in/bilal-saeed-0796ab259/)
