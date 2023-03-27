@@ -58,7 +58,7 @@ Which translates to
 0.cloud.chals.io:16527 wcsc:OSINT15Aw3some3
 ``````
 
-#### Part 5: Utilizing SSH and getting the password
+#### Part 5: Utilizing SSH and getting the flag
 After looking at the decoded message, I quickly realized that this was an ssh format. With that, I used the following command.
 ``````bash
 ssh -p 16527 wcsc@0.cloud.chals.io
