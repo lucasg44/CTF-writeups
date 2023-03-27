@@ -31,19 +31,44 @@ and I will tell you a secret
 right here, however, in the past
 ``````
 
-### Part 3: Wayback machine on the about page
+#### Part 3: Wayback machine on the about page
 I used the resource provided above to go to the specific directory at "https://www.youtube.com/@secretarycomrade/about" on March 24th, 2023 and got this code provided below
 ``````text
 #############################################################
-I'll let you in on a secret... I deleted the video... not this me -- but the other me           #
-I remember the majority of the video id, but I forgot the last digit       (|||❛︵❛.)            #
-/watch?v=pN9XeSpjkT_                                                                                                      #
-                                         ^ figure out the missing number and substitute the..          #
-                                         ^ ..underscore with the correct number...                             #
-                                         ^ ..try to access the video or find a copy of the video...   #
-...believe me, it's out there. Nothing ever gets deleted from the Internet.            #
+I'll let you in on a secret... I deleted the video... not this me -- but the other me        #
+I remember the majority of the video id, but I forgot the last digit       (|||❛︵❛.)         #
+/watch?v=pN9XeSpjkT_                                                                         #
+ ^ figure out the missing number and substitute the..                                        #
+ ^ ..underscore with the correct number...                                                   #
+^ ..try to access the video or find a copy of the video...                                   #
+...believe me, it's out there. Nothing ever gets deleted from the Internet.                  #
 ########################################################
 ``````
 
+#### Part 4: Finding the hidden video and hidden description of the video
+I already knoew what video they were talking about, which was labeled "[Part 1] dogs at the waterfall" so doing a google search specifically labeled "www.youtube.com [Part 1] dogs at the waterfall secretarycomrade" revealed that the last number was 8
 
+With this, I used the wayback machine to go back to march 20th on the video and I found a base64 encoded message in the description of the video labeled
+``````text
+MC5jbG91ZC5jaGFscy5pbzoxNjUyNwoKd2NzYzpPU0lOVDE1QXczc29tZTM=
+``````
+
+Which translates to
+``````text
+0.cloud.chals.io:16527 wcsc:OSINT15Aw3some3
+``````
+
+#### Part 5: Utilizing SSH and getting the password
+After looking at the decoded message, I quickly realized that this was an ssh format. With that, I used the following command.
+``````bash
+ssh -p 16527 wcsc@0.cloud.chals.io
+``````
+
+After authenticating using the password "OSINT15Aw3some3" I navigated over to the hidden .flag.txt which gave me the flag.
+
+### TL;DR
+I followed the rabbit hole to a deleted video on the wayback machine, which gave me a SSH port to authenticate into, and it gave me the password.
+
+### Flag
+WCSC_HackaBull23{1nt3rnet_n3ver_f0rg3t5}
 
