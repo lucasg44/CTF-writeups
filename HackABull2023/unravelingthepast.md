@@ -17,7 +17,7 @@ This solution is split into 6 seperate parts
 #### Part 1: Finding the social media pages
 To find the social media pages, I googled the name Whitney Hatteras for the cat videos and twitter channel, which led to these two links
 
-[Twitter channel](https://twitter.com/WhitHatteras) [Youtube channel](https://www.youtube.com/@secretarycomrade)
+[Twitter channel](https://twitter.com/WhitHatteras) | [Youtube channel](https://www.youtube.com/@secretarycomrade)
 
 #### Part 2: Decoding the about page
 By traveling to the about page, we see a series of messages in seperate languages. After translating all the information to english, we are left with the following:
