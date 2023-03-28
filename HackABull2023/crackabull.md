@@ -26,7 +26,7 @@ john enc --format=raw-blake2
 After letting john run for a little, it returned a code named "thuglife", which we plugged into the flag format to complete the challenge
 
 ### TL;DR
-Using john the ripper helped me doce the blake2 format for the hashed password
+Using john the ripper helped me de-code the blake2 format for the hashed password
 
 ### Flag
 WCSC_HackaBull23{thuglife}
