@@ -67,7 +67,7 @@ ssh -p 16527 wcsc@0.cloud.chals.io
 After authenticating using the password "OSINT15Aw3some3" I navigated over to the hidden .flag.txt which gave me the flag.
 
 ### TL;DR
-I followed the rabbit hole to a deleted video on the wayback machine, which gave me a SSH port to authenticate into, and it gave me the password.
+I followed the rabbit hole to a deleted video on the wayback machine, which gave me a SSH port to authenticate into, and it gave me the flag.
 
 ### Flag
 WCSC_HackaBull23{1nt3rnet_n3ver_f0rg3t5}
