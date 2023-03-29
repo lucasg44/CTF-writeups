@@ -8,4 +8,20 @@ How about some hide and seek heh? Download [this file](https://artifacts.picoctf
 (No hints)
 
 ### The solution
-This will be updated at the end of PicoCTF 2023
+Getting started, I ran a strings command on the file.
+``````bash
+strings trace.pcap 
+``````
+
+After looking around, I noticed a lot of pointless clutter, so I tried to see if the file outright stated the flag with this command:
+``````bash
+strings trace.pcap | grep pico
+``````
+
+My guess was right, the file outright stated the flag and it was pulled with this command.
+
+### TL;DR
+I used a strings command with a grep pipe to immediately pull the flag.
+
+### Flag
+picoCTF{P64P_4N4L7S1S_SU55355FUL_ba1a6097}
